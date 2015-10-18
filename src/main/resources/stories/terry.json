@@ -37,8 +37,8 @@
       "\"Nevermind man, I'll ask Scatt to help me.\""
     ],
     "options":[
-      "gotocs180",
-      "approachgirl"
+      "approachgirl",
+      "gotocs180"
     ]
   },
   {
@@ -96,22 +96,40 @@
   {
     "id":"wingmanryan",
     "prompt":[
-      "Try and wingman for Ryanr"
+      "Try and wingman for Ryan"
     ],
     "text":[
       "\"Hey Ryan, you finished the project already right? Fabby needs help\"",
       "Fabby's eyes light up at the sound of this.",
-      "\"Do you think you could help me later?\""
+      "\"Do you think you could help me later, Ryan?\"",
+      "\"Oh of course! Maybe we can work in the laundry room lounge later!\""
     ],
     "options":[
-      "a_end",
+      "keephelping",
       "trytopickup"
+    ]
+  },
+    {
+    "id":"keephelping",
+    "prompt":[
+      "Be a bro and finish the job"
+    ],
+    "text":[
+      "You interject to try and make Ryan look better.",
+      "\"Oh yeah, Ryan helped me out yesterday, he's so much better at Java than I am.\"",
+      "\"Is that so? Okay Ryan, how about I give you my number and I'll text you later?\"",
+      "Ryan smiles stupidly at her and you chuckle.",
+      "It's so obvious she's just using him to do her homework for her. Oh well."
+    ],
+    "options":[
+      "skipclass",
+      "gotocs180"
     ]
   },
   {
     "id":"trytopickup",
     "prompt":[
-      "Try to pick her up"
+      "Screw Ryan and try to pick her up yourself"
     ],
     "text":[
       "You pretend Ryan isn't there and put on the charm.",
@@ -121,8 +139,56 @@
       "\"Uhm..I'm a little busy this weekend, so I don't know, sorry!\""
     ],
     "options":[
-      "a_end",
-      "a_end"
+      "tryharder",
+      "abortmission"
+    ]
+  },
+  {
+    "id":"abortmission",
+    "prompt":[
+      "Cut your losses"
+    ],
+    "text":[
+      "\"Oh that's okay! Maybe next time then?\"",
+      "\"Definitely! Sorry I'm just too busy. How about you give me your number and I'll text you when I'm free?\"",
+      "You enter your digits into her phone. Score.",
+      "You see Ryan looking at you, but you brush it off. Alpha male!"
+    ],
+    "options":[
+      "skipclass",
+      "gotocs180"
+    ]
+  },
+  {
+    "id":"skipclass",
+    "prompt":[
+      "Decide against going to class. Screw Varoom!"
+    ],
+    "text":[
+      "You decide that class isn't worth going to afterall.",
+      "Making your way back into your room, you wonder if any of your friends are in their rooms."
+    ],
+    "options":[
+      "backsleep2",
+      "nap"
+    ]
+  },
+{
+    "id":"tryharder",
+    "prompt":[
+      "Step up your game"
+    ],
+    "text":[
+      "\"Oh that's okay. Can I get your number then? Maybe we can text and-\"",
+      "\"Sorry uh my phone is broken.\"",
+      "\"That's okay! You can still put my number on my phone for me.\"",
+      "\"I forgot my phone number.\"",
+      "Before you can question the validity of that statement she rushes off",
+      "You sigh and shake your head, wondering what went wrong."
+    ],
+    "options":[
+      "skipclass",
+      "gotocs180"
     ]
   },
   {
