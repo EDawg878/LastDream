@@ -1,0 +1,47 @@
+[
+  {
+    "id":"start",
+    "prompt":[
+
+    ],
+    "text":[
+      "Matthew's alarm goes off and he promptly wakes up"
+    ],
+    "options":[
+      "wakeup1",
+      "wakeup2"
+    ]
+  },
+  {
+    "id":"wakeup1",
+    "prompt":[
+      "Go to class"
+    ],
+    "text":[
+      "You get out of bed, shower, brush your teeth, and walk to class."
+    ],
+    "options":[
+      "a_end"
+    ]
+  },
+  {
+    "id":"wakeup2",
+    "prompt":[
+      "Go back to sleep"
+    ],
+    "text":[
+      "Fuck Varun. Imma sleep"
+    ],
+    "options":[
+      "a_end"
+    ]
+  },
+  {
+    "id":"a_end",
+    "prompt":[
+      "this ends the game"
+    ],
+    "text":[],
+    "options":[]
+  }
+]
