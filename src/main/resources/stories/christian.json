@@ -35,7 +35,10 @@
   {
     "id":"VaroomResponse2",
     "prompt":[
-      " This is fucking bullshit Varoom! I've sat in your class everyday for the past 5 weeks and this is how you treat me? I had no involvement in this matter or any such matter of academic dishonesty. In fact, Gregory even helped me work on this project at my Supplemental Instruction session. If you follow through with this, I will be forced to take this matter to the dean of students."
+      " This is fucking bullshit Varoom! I've sat in your class everyday for the past 5 weeks and",
+      "this is how you treat me? I had no involvement in this matter or any such matter of academic",
+      "dishonesty. In fact, Gregory even helped me work on this project at my Supplemental Instruction session.",
+      "If you follow through with this, I will be forced to take this matter to the dean of students."
     ],
     "text":[   
       " I'm sorry for the accusation. In the future, however, I would reccomend you write your emails with more respect."
@@ -50,8 +53,8 @@
       "Go to Lawson During Varoom's office hours"
     ],
     "text":[   
-      "*You arrive at Varoom's office in Lawson. You bring him his favorite drink from starbucks to ease the situation*",
-      " \"I brought you a starbucks, it's your favorite, Pumpkin Spice Latte!\" ",
+      "*You arrive at Varoom's office in Lawson. You bring him his favorite drink from Starbucks to ease the situation*",
+      " \"I brought you a Starbucks, it's your favorite, Pumpkin Spice Latte!\" ",
       "*You sit down*",
       "Varoom: \" I'm going to have to give you a 0 for this assignment. Note that this is the best possible punishment and that",
       "in the future I will have to report this to the office of the dean. You are dismissed.\""
@@ -69,6 +72,72 @@
       "*You text the girl*: Netflix and Chill?",
       "*She responds*: Sure",
       "*She comes to your room*"
+    ],
+    "options":[
+      "GirlOption1",
+      "GirlOption2",
+      "GirlOption3"
+    ]
+  },
+  {
+  "id":"GirlOption1",
+    "prompt":[
+      "Netflix and Chill \\(ʘ‿ʘ\\)"
+    ],
+    "text":[   
+      "*She comes into your room*: sure",
+      "*You begin to kiss her*",
+      "Girl: \" Stop, I thought we were just going to Netflix and chill.\"",
+      "*You keep kissing her*",
+      "*The next day*: You have been arrested for title IX"
+      
+    ],
+    "options":[
+      "a_end"
+    ]
+  },
+  {
+  "id":"GirlOption2",
+    "prompt":[
+      "Actually Netflix and Chill"
+    ],
+    "text":[   
+      "*She comes into your room*",
+      "What movie do you want to watch? I hope you brought your HDMI cord, because we're gonna need it!",
+      "*She pulls out an HDMI cord*",
+      "*You plug in your computer to the TV and start Orange is the new Black*",
+      "*You guys watch Netflix for the next 5 hours*"
+      
+    ],
+    "options":[
+      "a_end"
+    ]
+  },
+  {
+  "id":"GirlOption3",
+    "prompt":[
+      "Ask her if she's DTF"
+    ],
+    "text":[   
+      "*You have already kicked you roommate out of the room*",
+      "Girl: \"I thought you'd never ask\" ",
+      "*You invite her inside*",
+      "*You don't have condoms*"
+    ],
+    "options":[
+      "SexOption1",
+      "SexOption2"
+    ]
+  },
+  {
+  "id":"SexOption1",
+    "prompt":[
+      "*You proceed to have sex without a condom*"
+    ],
+    "text":[   
+      "*3 weeks later*",
+      "*Phone buzzes... You pick it up*",
+      "Girl(On Phone): \"I'm late on my period\""
     ],
     "options":[
       "a_end"
