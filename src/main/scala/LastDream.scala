@@ -13,10 +13,10 @@ object LastDream {
 
   def main(args: Array[String]): Unit = {
     val root = Paths.get(getClass.getResource("stories").toURI)
-    val questions = (files.map(root.resolve) map { path =>
+    val questions = files.map(root.resolve) flatMap { path =>
       val bytes = Files.readAllBytes(path)
       Json.parse(bytes).as[Seq[Question]]
-    }).flatten
+    }
     val questionsById = (questions map { q => (q.id, q) }).toMap
     val start = questionsById("start")
     var next = ask(start, questionsById)
