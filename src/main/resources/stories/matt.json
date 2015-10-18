@@ -13,18 +13,6 @@
     ]
   },
   {
-    "id":"wakeup1",
-    "prompt":[
-      "Go to class"
-    ],
-    "text":[
-      "You get out of bed, shower, brush your teeth, and walk to class."
-    ],
-    "options":[
-      "a_end"
-    ]
-  },
-  {
     "id":"wakeup2",
     "prompt":[
       "Go back to sleep"
@@ -40,34 +28,43 @@
     ]
   },
   {
-    "id":"backsleep1",
-    "prompt":[
-      "Check your email"
-    ],
-    "text":[
-      "you have recieved an email from Teaching Assistant Varoom",
-      "The message reads:",
-      "It has come to our notice that you have cheated in the lab assignment. ",
-      "I will soon call you to my office to talk about this. In the meantime, if you would like",
-      "to confess drop me an email at <varoom@purdoo.edu> describing what exactly you did?    Please",
-      "note that you will be never be able to get around with cheating."
-    ],
-    "options":[
-      "a_end"
-    ]
-  },
-  {
     "id":"backsleep2",
     "prompt":[
       "Go out into the hallway"
     ],
     "text":[
-      "Varoom can wait. Imma sleep",
-      "*3 hours pass*",
-      "You wake up again and realize that you have also missed English 106 and CS 191"
+      "You walk outside into the hallway. The hallway is empty. You plan to knock on a friend's door."
     ],
     "options":[
-      "a_end"
+      "door1",
+      "door2"
+    ]
+  },
+  {
+    "id":"door1",
+    "prompt":[
+      "Knock on Ryan's door"
+    ],
+    "text":[
+      "You knock on Ryan's door. He opens up the door and talks,",
+      "\"Yeah what's up?\""
+    ],
+    "options":[
+      "door1",
+      "door2"
+    ]
+  },
+  {
+    "id":"door2",
+    "prompt":[
+      "Knock on Ross's door"
+    ],
+    "text":[
+      "You walk outside into the hallway. The hallway is empty. You plan to knock on a friend's door."
+    ],
+    "options":[
+      "door1",
+      "door2"
     ]
   },
   {
