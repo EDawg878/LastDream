@@ -12,6 +12,7 @@ case class Question(id: String, prompt: Seq[String], text: Seq[String], options:
 object LastDream {
 
   implicit val questionFormat = Json.format[Question]
+  val useGUI = false
   val files = Seq("matt.json", "christian.json", "terry.json")
 
   def main(args: Array[String]): Unit = {
@@ -21,13 +22,14 @@ object LastDream {
       Json.parse(bytes).as[Seq[Question]]
     }
     val questionsById = (questions map { q => (q.id, q) }).toMap
-    createAndShowGUI(questionsById)
-    /*
-    val start = questionsById("start")
-    var next = ask(start, questionsById)
-    while (next.nonEmpty) {
-      next = ask(next.get, questionsById)
-    }*/
+    if (useGUI) createAndShowGUI(questionsById)
+    else {
+      val start = questionsById("start")
+      var next = ask(start, questionsById)
+      while (next.nonEmpty) {
+        next = ask(next.get, questionsById)
+      }
+    }
   }
 
   def ask(question: Question, questionsById: Map[String, Question]): Option[Question] = {
