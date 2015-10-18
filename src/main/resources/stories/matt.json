@@ -60,11 +60,38 @@
       "Go to Cru with Ryan"
     ],
     "text":[
-      "You knock on Ryan's door. He opens up the door and talks,"
+      "You and Ryan leave the residence hall and start walking on your way to the Cru meeting. You and Ryan are ",
+      "confused as to the location of this week's meeting. On the way, a car pulls up in front of you. The driver",
+      "says that he thought you two looked lost and asks you if you need a ride."
     ],
     "options":[
-      "cru1",
-      "cru2"
+      "ride1",
+      "ride2"
+    ]
+  },
+  {
+    "id":"ride1",
+    "prompt":[
+      "Accept the ride"
+    ],
+    "text":[
+      "You and Ryan hop into the back of the car. The driver locks the doors and suddenly starts speeding off",
+      "You start contemplating jumping out of the car."
+    ],
+    "options":[
+      ""
+    ]
+  },
+  {
+    "id":"ride2",
+    "prompt":[
+      "Don't accept the ride"
+    ],
+    "text":[
+      "You and Ryan walk to Cru and enjoy the rest of your day."
+    ],
+    "options":[
+      ""
     ]
   },
   {
@@ -73,12 +100,12 @@
       "Don't go to Cru with Ryan"
     ],
     "text":[
-      "You knock on Ryan's door. He opens up the door and talks,",
-      "\"Bro do you want to go to Cru this week? I think it would be a good way to spend the evening.\""
+      "You tell Ryan that you don't feel like Cru tonight. Suddenly the two of you realize that you need to get your",
+      "resume checked by the CCO before 11:05 today. You quickly rush east on 1st street but have no idea where to go.",
+      "You both run into a narrow alley when two men dressed in black approach you."
     ],
     "options":[
-      "cru1",
-      "cru2"
+      ""
     ]
   },
   {
@@ -106,8 +133,7 @@
       "drinks. Soon after, Ross' friend Shoujo suggest that you guys climb up to the roof of a retirement home."
     ],
     "options":[
-      "schmacked1",
-      "schmacked2"
+      ""
     ]
   },
   {
