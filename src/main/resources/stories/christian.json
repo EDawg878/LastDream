@@ -86,7 +86,8 @@
     "text":[   
       "You grab a guy mid bench and pull him off the seat. He drops the bar on himself, ",
       "but before it crushes his chest you pick it up with one arm and rerack it.",
-      ""
+      "You tell him to fuck off",
+      "He leaves in defeat"
     ],
     "options":[
       "a_end"
@@ -98,7 +99,36 @@
       "Stand there looking akward while you wait for a bench to open up"
     ],
     "text":[   
-      ""
+      "While waiting for a bench to open up you stand there browsing through your phone.",
+      "A cute girl walks by"
+    ],
+    "options":[
+      "CuteGirl1",
+      "CuteGirl2"
+    ]
+  },
+  {
+    "id":"CuteGirl1",
+    "prompt":[
+      "Hit on the girl by whistling at her"
+    ],
+    "text":[   
+      "She turns around and slaps you...",
+      "You should have known better than to hit on a girl at the gym"
+    ],
+    "options":[
+      "a_end"
+    ]
+  },
+  {
+    "id":"CuteGirl2",
+    "prompt":[
+      "Walk next to her and flex your muscles like you just finished benching a baby cow"
+    ],
+    "text":[   
+      "She thinks your having a spasm and immediately begins calling for help",
+      "Other people at the gym start walking over",
+      "They realize nothing has happened... You leave the CoRec in embarassment"
     ],
     "options":[
       "a_end"
