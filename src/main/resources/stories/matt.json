@@ -47,11 +47,38 @@
     ],
     "text":[
       "You knock on Ryan's door. He opens up the door and talks,",
-      "\"Yeah what's up?\""
+      "\"Bro do you want to go to Cru this week? I think it would be a good way to spend the evening.\""
     ],
     "options":[
-      "door1",
-      "door2"
+      "cru1",
+      "cru2"
+    ]
+  },
+  {
+    "id":"cru1",
+    "prompt":[
+      "Go to Cru with Ryan"
+    ],
+    "text":[
+      "You knock on Ryan's door. He opens up the door and talks,"
+    ],
+    "options":[
+      "cru1",
+      "cru2"
+    ]
+  },
+  {
+    "id":"cru2",
+    "prompt":[
+      "Don't go to Cru with Ryan"
+    ],
+    "text":[
+      "You knock on Ryan's door. He opens up the door and talks,",
+      "\"Bro do you want to go to Cru this week? I think it would be a good way to spend the evening.\""
+    ],
+    "options":[
+      "cru1",
+      "cru2"
     ]
   },
   {
@@ -60,11 +87,39 @@
       "Knock on Ross's door"
     ],
     "text":[
-      "You walk outside into the hallway. The hallway is empty. You plan to knock on a friend's door."
+      "Ross opens the door and says,",
+      "\"Hey what's up bro. The guys and I are gonna party a bit before English,",
+      " you tryna get schmacked tonight?\""
     ],
     "options":[
-      "door1",
-      "door2"
+      "schmacked1",
+      "schmacked2"
+    ]
+  },
+  {
+    "id":"schmacked1",
+    "prompt":[
+      "Get \"schmacked\" with Ross"
+    ],
+    "text":[
+      "You tell Ross that you're down to get schmacked.  Ross takes you to his friends apartment. You have a few ",
+      "drinks. Soon after, Ross' friend Shoujo suggest that you guys climb up to the roof of a retirement home."
+    ],
+    "options":[
+      "schmacked1",
+      "schmacked2"
+    ]
+  },
+  {
+    "id":"schmacked2",
+    "prompt":[
+      "Don't get \"schmacked\" with Ross"
+    ],
+    "text":[
+      "You tell Ross that you can't get \"schmacked\" because you're late to church. You go back out to the hall."
+    ],
+    "options":[
+      "door1"
     ]
   },
   {
