@@ -66,7 +66,7 @@
     ],
     "options":[
       "ride1",
-      "ride2"
+      "ride2_end"
     ]
   },
   {
@@ -79,12 +79,12 @@
       "You start contemplating jumping out of the car."
     ],
     "options":[
-      "jump1",
+      "jump1_end",
       "jump2"
     ]
   },
   {
-    "id":"jump1",
+    "id":"jump1_end",
     "prompt":[
       "Jump out of the car."
     ],
@@ -105,7 +105,7 @@
     ],
     "options":[
       "run1",
-      "run2"
+      "run2_end"
     ]
   },
   {
@@ -118,12 +118,12 @@
       "attempt to help you and successfully runs away You are now incapacitated and the driver walks towards you."
     ],
     "options":[
-      "Away1",
+      "Away1_end",
       "Away2"
     ]
   },
   {
-    "id":"run2",
+    "id":"run2_end",
     "prompt":[
       "Don't make a run for it"
     ],
@@ -135,7 +135,7 @@
     ]
   },
   {
-    "id":"Away1",
+    "id":"Away1_end",
     "prompt":[
       "Do nothing"
     ],
@@ -159,11 +159,11 @@
     ],
     "options":[
       "chill1",
-      "chill2"
+      "chill2_end"
     ]
   },
   {
-    "id":"ride2",
+    "id":"ride2_end",
     "prompt":[
       "Don't accept the ride"
     ],
@@ -184,7 +184,7 @@
     ],
     "options":[
       "chill1",
-      "chill2"
+      "chill2_end"
     ]
   },
   {
@@ -197,12 +197,12 @@
       "make a lot of noise. Ryan knocks on the door. Unfortunately, you cannot hear him and he barges into the room."
     ],
     "options":[
-      "relax1",
-      "relax2"
+      "relax1_end",
+      "relax2_end"
     ]
   },
   {
-    "id":"relax1",
+    "id":"relax1_end",
     "prompt":[
       "Keep \"relaxing\""
     ],
@@ -214,7 +214,7 @@
     ]
   },
   {
-    "id":"relax2",
+    "id":"relax2_end",
     "prompt":[
       "Freak out!"
     ],
@@ -226,7 +226,7 @@
     ]
   },
   {
-    "id":"chill2",
+    "id":"chill2_end",
     "prompt":[
       "Sleep"
     ],
@@ -289,7 +289,7 @@
     ],
     "options":[
       "chill1",
-      "chill2"
+      "chill2_end"
     ]
   },
   {
@@ -302,12 +302,12 @@
       "cars advancing towards your location."
     ],
     "options":[
-      "bounce1",
+      "bounce1_end",
       "bounce2"
     ]
   },
   {
-    "id":"bounce1",
+    "id":"bounce1_end",
     "prompt":[
       "Run away"
     ],
@@ -329,7 +329,7 @@
     ],
     "options":[
       "chill1",
-      "chill2"
+      "chill2_end"
     ]
   },
   {
@@ -343,7 +343,7 @@
     ],
     "options":[
       "chill1",
-      "chill2"
+      "chill2_end"
     ]
   },
   {
