@@ -5,7 +5,7 @@
 
     ],
     "text":[
-      "Your alarm goes off you promptly wake up"
+      "Your alarm goes off and you promptly wake up"
     ],
     "options":[
       "wakeup1",
@@ -333,9 +333,12 @@
       "Stay put"
     ],
     "text":[
-      "You decide to stay where you are."
+      "You decide to stay where you are. The cops ask you a few questions concerning your involvement in the",
+      "situation before eventually letting you go with a warning. You walk back to your room relieved."
     ],
     "options":[
+      "chill1",
+      "chill2"
     ]
   },
   {
