@@ -216,10 +216,10 @@
       "Keep \"relaxing\""
     ],
     "text":[
-      ""
+      "You continue doing your business while Ryan takes a photo of you and posts it in your floor's GroupMe chat.",
+      "Ryan's post receives no likes. You pridefully finish up and go to bed."
     ],
     "options":[
-      ""
     ]
   },
   {
@@ -228,10 +228,10 @@
       "Freak out!"
     ],
     "text":[
-      ""
+      "You jump and scream and a distinct nasty smell soon eminates from your underwear. Ryan can't stand the smell",
+      "and leaves the room. You shamefully walk down the hall to clean yourself up before going to bed."
     ],
     "options":[
-      ""
     ]
   },
   {
@@ -270,7 +270,86 @@
       "drinks. Soon after, Ross' friend Shoujo suggest that you guys climb up to the roof of a retirement home."
     ],
     "options":[
-      ""
+      "climb1",
+      "climb2"
+    ]
+  },
+  {
+    "id":"climb1",
+    "prompt":[
+      "Climb the roof"
+    ],
+    "text":[
+      "In your intoxicated state, you decide to follow Shoujo, Ross, and two girls to climb up a retirement home",
+      "all the way up to the roof. As you climb up, you notice a suspicious van following you around."
+    ],
+    "options":[
+      "leave1",
+      "leave2"
+    ]
+  },
+  {
+    "id":"leave1",
+    "prompt":[
+      "Leave the roof"
+    ],
+    "text":[
+      "You decide it's not safe and leave the roof. You call a taxi and ride back to your room."
+    ],
+    "options":[
+      "chill1",
+      "chill2"
+    ]
+  },
+  {
+    "id":"leave2",
+    "prompt":[
+      "Stay on the roof."
+    ],
+    "text":[
+      "The van does not bother you. You continue to hang out on the roof of the retirement home until you hear cop",
+      "cars advancing towards your location."
+    ],
+    "options":[
+      "bounce1",
+      "bounce2"
+    ]
+  },
+  {
+    "id":"bounce1",
+    "prompt":[
+      "Run away"
+    ],
+    "text":[
+      "You decide to run away. Bad move. The cops chase you down and quickly put the cuffs on you. You are charged",
+      "with resisted arrest, trespassing, and many other charges."
+    ],
+    "options":[
+    ]
+  },
+  {
+    "id":"bounce2",
+    "prompt":[
+      "Stay put"
+    ],
+    "text":[
+      "You decide to stay where you are."
+    ],
+    "options":[
+    ]
+  },
+  {
+    "id":"climb2",
+    "prompt":[
+      "Don't climb the roof"
+    ],
+    "text":[
+      "Despite being intoxicated, you know that climbing a retirement home with Shoujo is a stupid idea. You call a",
+      "taxi and ride back to your room."
+    ],
+    "options":[
+      "chill1",
+      "chill2"
     ]
   },
   {
