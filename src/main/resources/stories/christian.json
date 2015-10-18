@@ -41,7 +41,7 @@
       "If you follow through with this, I will be forced to take this matter to the dean of students."
     ],
     "text":[   
-      " I'm sorry for the accusation. In the future, however, I would reccomend you write your emails with more respect.",
+      " I'm sorry for the accusation. In the future, however, I would reccommend you write your emails with more respect.",
       " After a heated email that you sent to Varoom and a quick response, you are still angry"
     ],
     "options":[
@@ -157,7 +157,7 @@
       "He leaves in defeat"
     ],
     "options":[
-      "a_end"
+      "\"You have now become a true alpha male\"_end"
     ]
   },
   {
@@ -181,10 +181,12 @@
     ],
     "text":[   
       "She turns around and slaps you...",
-      "You should have known better than to hit on a girl at the gym"
+      "You should have known better than to hit on a girl at the gym",
+      "She turns around and walks away; however, this doesn't have to be a complete fail"
     ],
     "options":[
-      "a_end"
+      "CuteGirl1",
+      "CuteGirl2"
     ]
   },
   {
@@ -195,16 +197,17 @@
     "text":[   
       "She thinks your having a spasm and immediately begins calling for help",
       "Other people at the gym start walking over",
-      "They realize nothing has happened... You leave the CoRec in embarassment"
+      "They realize nothing has happened... You leave the CoRec in embarassment",
+      "You are now forever an embarassment at the CoRec"
     ],
     "options":[
-      "a_end"
+      ""
     ]
   },
   {
     "id":"VaroomMeeting2",
     "prompt":[
-      " Skip Varoom's meeting and meet with a cute girl that you've been talking to for the past week. She says she really needs to meet and it's an emergency"
+      " Skip Varoom's meeting and meet with a cute girl that you've been talking to for the past",       "week. She says she really needs to meet and it's an emergency"
     ],
     "text":[   
       "*You text the girl*: Netflix and Chill?",
@@ -231,7 +234,7 @@
       
     ],
     "options":[
-      "a_end"
+      ""
     ]
   },
   {
@@ -244,11 +247,15 @@
       "What movie do you want to watch? I hope you brought your HDMI cord, because we're gonna need it!",
       "*She pulls out an HDMI cord*",
       "*You plug in your computer to the TV and start Orange is the new Black*",
-      "*You guys watch Netflix for the next 5 hours*"
+      "*You guys watch Netflix for the next 5 hours*",
+      "Eventually after growing a strong relationship over Orange is the new Black",
+      "you two eventually become a couple over having so much in common... Even",
+      "though the only thing you two have in common is an appreciation for Orange is the new Black.",
+      "Nonetheless, you live happily ever after."
       
     ],
     "options":[
-      "a_end"
+      ""
     ]
   },
   {
@@ -276,10 +283,11 @@
     "text":[   
       "*3 weeks later*",
       "*Phone buzzes... You pick it up*",
-      "Girl(On Phone): \"I'm late on my period\""
+      "Girl(On Phone): \"I'm late on my period\"",
+      "Your mom is going to kill you"
     ],
     "options":[
-      "a_end"
+      ""
     ]
   },
   {
@@ -289,10 +297,11 @@
     ],
     "text":[   
       "The Line at 3rd Street Market was extremely long and you return after 15 minutes of overanticipation.",
-      "When you return to the room, she's gone because you have taken too long."
+      "When you return to the room, she's gone because you have taken too long.",
+      "You die alone."
     ],
     "options":[
-      "a_end"
+      ""
     ]
   }
 ]
