@@ -44,8 +44,10 @@ object LastDream {
     val n = readInt()
     val choice = Try(options.toSeq(n - 1)).toOption
     choice map { q =>
-       if (q.id.endsWith("_end")) None
-       else Some(q)
+       if (q.id.endsWith("_end")) {
+         q.text.foreach(println)
+         None
+       } else Some(q)
     } getOrElse {
       println("Invalid option!")
       Some(question)
