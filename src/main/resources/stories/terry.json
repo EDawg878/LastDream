@@ -9,7 +9,18 @@
     ],
     "options":[
       "stopforbreakfast",
-      "gotocs180"
+      "gotocs180_end"
+    ]
+  },
+    {
+    "id":"gotocs180_end",
+    "prompt":[
+      "Go to CS180 class"
+    ],
+    "text":[
+      "Why are you going to class?"
+    ],
+    "options":[
     ]
   },
   {
@@ -38,7 +49,7 @@
     ],
     "options":[
       "approachgirl",
-      "gotocs180"
+      "gotocs180_end"
     ]
   },
   {
@@ -123,7 +134,7 @@
     ],
     "options":[
       "skipclass",
-      "gotocs180"
+      "gotocs180_end"
     ]
   },
   {
@@ -156,7 +167,7 @@
     ],
     "options":[
       "skipclass",
-      "gotocs180"
+      "gotocs180_end"
     ]
   },
   {
@@ -241,6 +252,68 @@
       "mattsroom"
     ]
   },
+      {
+    "id":"mattsroom",
+    "prompt":[
+      "Knock on Matthew's room"
+    ],
+    "text":[
+      "You decide to go to Matthew's room. As you near his room, you can hear people arguing inside.",
+      "You peer into the room and see Matthew arguing with Ryan about something."
+    ],
+    "options":[
+      "askwhatswrong",
+      "brooksroom"
+    ]
+  },
+      {
+    "id":"askwhatswrong",
+    "prompt":[
+      "Ask what's wrong"
+    ],
+    "text":[
+      "Being the nosy person you are, you inquire what the fuss is about.",
+      "\"Ryan keeps trying to help me hook up with a girl and it's annoying!\"",
+      "\"Come on Matt, you know you like Liandri!\""
+      "\"Dude leave me alone, why don't you get a girlfriend first before you help me?\""
+    ],
+    "options":[
+      "sidewithmatt",
+      "sidewithryan"
+    ]
+  },
+    {
+    "id":"sidewithryan",
+    "prompt":[
+      "Take Ryan's side"
+    ],
+    "text":[
+      "You take a look at Matt and realize that Ryan is right, Matt is a huge pussy.",
+      "\"Maybe you should take Ryan's help. Who knows, you might get lucky!\"",
+      "Just then, Matt's phone rings on the table. It's Liandri."
+    ],
+    "options":[
+      "answerit",
+      "ignoreit"
+    ]
+  },
+      {
+    "id":"sidewithmatt",
+    "prompt":[
+      "Take Matt's side"
+    ],
+    "text":[
+      "You decide to give Ryan a piece of your mind and defend your ol' buddy Matt.",
+      "\"Ryan just leave him alone dude. You can barely talk to girls yourself!\"",
+      "\"In fact, you won't even call the girl you DO like! You pansy.\"",
+      "Shots fired left and right.",
+      "Just then, Matt's phone rings on the table. It's Liandri."
+    ],
+    "options":[
+      "answerit",
+      "ignoreit"
+    ]
+  },
     {
     "id":"nap",
     "prompt":[
@@ -271,20 +344,7 @@
     ],
     "options":[
       "skipclass",
-      "gotocs180"
+      "gotocs180_end"
     ]
   },
-  {
-    "id":"gotocs180",
-    "prompt":[
-      "You finish up and go to CS180"
-    ],
-    "text":[
-      "You finish up what you were doing and make your way towards the Class of 1951 Lecture Hall."
-    ],
-    "options":[
-      "a_end",
-      "a_end"
-    ]
-  }
 ]
