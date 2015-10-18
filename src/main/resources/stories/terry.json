@@ -32,7 +32,9 @@
     ],
     "text":[
       "You ignore Stephen, grab some food and sit down to eat.",
-      "A cute girl walks by and catches your eye"
+      "\"Wait dude, do you think you could take my iClicker to class and-\"",
+      "You look at him with disgust.",
+      "\"Nevermind man, I'll ask Scatt to help me.\""
     ],
     "options":[
       "gotocs180",
@@ -48,20 +50,56 @@
       "You see your friend Stephen and strike up conversation.",
       "\"Hey whats up?\"",
       "\"Not much, what's going on Stephen?\"",
-      "\"Hey check out that girl standing over there. What do you think?\""
+      "\"Oh you know, I was partying super hard, meeting lots of girls...\""
+    ],
+    "options":[
+      "approachgirl",
+      "ignorestephen"
+    ]
+  },
+  {
+    "id":"approachgirl",
+    "prompt":[
+      "A cute girl catches your eye..."
+    ],
+    "text":[
+      "You see a cute girl and decide to make a move. No harm in that right?",
+      "\"Hey I recognize you, you're in my learning community right? Fabby right?\"",
+      "\"Hi I know you! How are you?\"",
+      "\"I'm doing great!\"",
+      "As you're talking, you make eye contact with another one of your friends, Ryan.",
+      "You remember that Ryan has been crushing on this girl since school started."
+    ],
+    "options":[
+      "gotocs180",
+      "helpryan"
+    ]
+  },
+  {
+    "id":"helpryan",
+    "prompt":[
+      "Call Ryan over"
+    ],
+    "text":[
+      "You call Ryan over, and he makes his way towards you.",
+      "As he gets closer, he sees Fabby and visibly tenses up",
+      "\"Yo Ryan! What's up man?\"",
+      "\"Oh h-h-hey, how's is g-going?\"",
+      "A strange smell begins to permeate the air.",
+      "Fabby gives Ryan a weird look."
     ],
     "options":[
       "a_end",
-      "ignorestephen"
+      "a_end"
     ]
   },
   {
     "id":"gotocs180",
     "prompt":[
-      "Finish and go to CS180"
+      "You finish up and go to CS180"
     ],
     "text":[
-      "You make your way towards the Class of 1951 Lecture Hall."
+      "You finish up what you were doing and make your way towards the Class of 1951 Lecture Hall."
     ],
     "options":[
       "a_end",
