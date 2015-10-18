@@ -50,6 +50,41 @@
     ]
   },
   {
+    "id":"VaroomMeeting1",
+    "prompt":[
+      "Go to Lawson During Varoom's office hours"
+    ],
+    "text":[   
+      "*You arrive at Varoom's office in Lawson. You bring him his favorite drink from Starbucks to ease the situation*",
+      " \"I brought you a Starbucks, it's your favorite, Pumpkin Spice Latte!\" ",
+      "*You sit down*",
+      "Varoom: \" I'm going to have to give you a 0 for this assignment. Note that this is the best possible punishment and that",
+      "in the future I will have to report this to the office of the dean. You are dismissed.\"",
+      "You are still angry with his decision and you need to blow off steam"
+    ],
+    "options":[
+      "VarunAfterthought1",
+      "VarunAfterthought2"
+    ]
+  },
+  {
+    "id":"VaroomResponse2",
+    "prompt":[
+      " This is fucking bullshit Varoom! I've sat in your class everyday for the past 5 weeks and",
+      "this is how you treat me? I had no involvement in this matter or any such matter of academic",
+      "dishonesty. In fact, Gregory even helped me work on this project at my Supplemental Instruction session.",
+      "If you follow through with this, I will be forced to take this matter to the dean of students."
+    ],
+    "text":[   
+      " I'm sorry for the accusation. In the future, however, I would reccomend you write your emails with more respect.",
+      " After a heated email that you sent to Varun and a quick response, you are still angry"
+    ],
+    "options":[
+      "VarunAfterthought1",
+      "VarunAfterthought2"
+    ]
+  },
+  {
     "id":"VaroomAfterthought1",
     "prompt":[
       " Go to the cactus and drink your troubles away"
@@ -58,6 +93,36 @@
       " You meet some other college students at the Cactus that ask you to go to a house party tomorrow.",
       " By this time you have far exceeded a .12% BAC and have trouble finding your way home.",
       "Luckily, Varoom sees you planking on the sidewalk and helps you get home."
+    ],
+    "options":[
+      "Hangover1",
+      "Hangover2"
+    ]
+  },
+  {
+    "id":"Hangover1",
+    "prompt":[
+      " You are still hungover from last night. Go to the party tonight."
+    ],
+    "text":[   
+      "You go to the party. You decide to not drink and after 3 hours of meeting new people",
+      "and hanging out you decide that you are extremely tired after a long week.",
+      "You meet another girl who wants to go home to. You find her very attractive",
+      "You decide that you want to make a move on her"
+    ],
+    "options":[
+      "GirlOption1",
+      "GirlOption2",
+      "GirlOption3"
+    ]
+  },
+  {
+    "id":"Hangover2",
+    "prompt":[
+      " You are still hungover from last night. Pass on the party."
+    ],
+    "text":[   
+      ""
     ],
     "options":[
       "a_end"
