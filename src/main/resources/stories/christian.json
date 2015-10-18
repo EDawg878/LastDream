@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "id":"backsleep1",
+    "prompt":[
+      "Check your email"
+    ],
+    "text":[   
+      "you have recieved an email from Teaching Assistant Varoom",
+      "The message reads:",
+      "It has come to our notice that you have cheated in the lab assignment. ",
+      "I will soon call you to my office to talk about this. In the meantime, if you would like",
+      "to confess drop me an email at <varoom@purdoo.edu> describing what exactly you did?    Please",
+      "note that you will be never be able to get around with cheating."
+    ],
+    "options":[
+      "VaroomResponse1" , 
+      "VaroomResponse2"
+    ]
+  },
+  {
+    "id":"VaroomResponse1",
+    "prompt":[
+      " Varoom, I'm sorry that I cheated on my lab assignment. I am willing to face the consequences of my academic dishonesty. Please note, I did not do this assignment with the intention to cheat, but ended up working with one of my friends on the lab and used the same code. I will change my work ethic in the future and this won't get happen again."
+    ],
+    "text":[   
+      " Meet me during my office hours in Lawson you maggot. This matter is serious and needs to be addressed immediately you maggot."
+    ],
+    "options":[
+      "a_end"
+    ]
+  },
+  {
+    "id":"VaroomResponse2",
+    "prompt":[
+      " This is fucking bullshit Varoom! I've sat in your class everyday for the past 5 weeks and this is how you treat me? I had no involvement in this matter or any such matter of academic dishonesty. In fact, Gregory even helped me work on this project at my Supplemental Instruction session. If you follow through with this, I will be forced to take this matter to the dean of students."
+    ],
+    "text":[   
+      " I'm sorry for the accusation. In the future, however, I would reccomend you write your emails with more respect."
+    ],
+    "options":[
+      "a_end"
+    ]
+  }
+]
