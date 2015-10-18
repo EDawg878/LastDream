@@ -79,6 +79,45 @@
       "You start contemplating jumping out of the car."
     ],
     "options":[
+      "jump1",
+      "jump2"
+    ]
+  },
+  {
+    "id":"jump1",
+    "prompt":[
+      "Jump out of the car."
+    ],
+    "text":[
+      "You jump out of the car and suffer a fatal concussion"
+    ],
+    "options":[
+    ]
+  },
+  {
+    "id":"jump2",
+    "prompt":[
+      "Don't jump out of the car."
+    ],
+    "text":[
+      "You decide not to jump out of the car. The driver take you out into the forest and pulls you out of the car.",
+      "Ryan suggests that you make a run for it."
+    ],
+    "options":[
+      "run1",
+      "run2"
+    ]
+  },
+  {
+    "id":"run1",
+    "prompt":[
+      "Make a run for it"
+    ],
+    "text":[
+      "You and Ryan attempt to run away. The driver pulls out a handgun and shoots you in the calf. Ryan makes no",
+      "attempt to help you and successfully runs away You are now incapacitated and the driver walks towards you."
+    ],
+    "options":[
       ""
     ]
   },
@@ -88,10 +127,9 @@
       "Don't accept the ride"
     ],
     "text":[
-      "You and Ryan walk to Cru and enjoy the rest of your day."
+      "You and Ryan walk to Cru and get in touch with your faith. You walk back to your room afterwards and fall asleep"
     ],
     "options":[
-      ""
     ]
   },
   {
