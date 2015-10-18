@@ -9,11 +9,11 @@
     ],
     "options":[
       "stopforbreakfast",
-      "gotocs180_end"
+      "gotocs180"
     ]
   },
     {
-    "id":"gotocs180_end",
+    "id":"gotocs180",
     "prompt":[
       "Go to CS180 class"
     ],
@@ -21,6 +21,7 @@
       "Why are you going to class?"
     ],
     "options":[
+      "stopforbreakfast"
     ]
   },
   {
@@ -49,7 +50,19 @@
     ],
     "options":[
       "approachgirl",
-      "gotocs180_end"
+      "gotocs1801"
+    ]
+  },
+    {
+    "id":"gotocs1801",
+    "prompt":[
+      "Go to CS180 class"
+    ],
+    "text":[
+      "Stop trying to go to class."
+    ],
+    "options":[
+      "approachgirl"
     ]
   },
   {
@@ -134,7 +147,19 @@
     ],
     "options":[
       "skipclass",
-      "gotocs180_end"
+      "gotocs1802"
+    ]
+  },
+    {
+    "id":"gotocs1802",
+    "prompt":[
+      "Go to CS180 class"
+    ],
+    "text":[
+      "Seriously, stop trying to go to class nerd."
+    ],
+    "options":[
+      "skipclass"
     ]
   },
   {
@@ -167,7 +192,19 @@
     ],
     "options":[
       "skipclass",
-      "gotocs180_end"
+      "gotocs1803"
+    ]
+  },
+    {
+    "id":"gotocs1803",
+    "prompt":[
+      "Go to CS180 class"
+    ],
+    "text":[
+      "Just play the game!"
+    ],
+    "options":[
+      "skipclass"
     ]
   },
   {
@@ -376,7 +413,7 @@
     ],
     "options":[
       "skipclass",
-      "gotocs180_end"
+      "gotocs1803"
     ]
   }
 ]
