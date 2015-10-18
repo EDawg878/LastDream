@@ -1,4 +1,4 @@
-# LastDream - BoilerMake 2015 Hackathon Project
+## LastDream - BoilerMake 2015 Hackathon Project
 ### A funny text based adventure game written in Scala  
 ###### Created By: Eric Aguilera <[@edawg878]>, Terry Lam <[@tlam6297]>, Christian Locke <[@lockchristian]>
 
