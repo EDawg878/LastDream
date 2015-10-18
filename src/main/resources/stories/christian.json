@@ -25,7 +25,7 @@
       "and used the same code. I will change my work ethic in the future and this won't get happen again."
     ],
     "text":[   
-      " Meet me during my office hours in Lawson you maggot. This matter is serious and needs to be addressed immediately you maggot."
+      " Meet me during my office hours in Lawson you maggot. This matter is serious and needs to be addressed immediately."
     ],
     "options":[
       "VaroomMeeting1",
@@ -63,8 +63,8 @@
       "You are still angry with his decision and you need to blow off steam"
     ],
     "options":[
-      "VarunAfterthought1",
-      "VarunAfterthought2"
+      "VaroomAfterthought1",
+      "VaroomAfterthought2"
     ]
   },
   {
@@ -80,8 +80,8 @@
       " After a heated email that you sent to Varun and a quick response, you are still angry"
     ],
     "options":[
-      "VarunAfterthought1",
-      "VarunAfterthought2"
+      "VaroomAfterthought1",
+      "VaroomAfterthought2"
     ]
   },
   {
@@ -107,7 +107,7 @@
     "text":[   
       "You go to the party. You decide to not drink and after 3 hours of meeting new people",
       "and hanging out you decide that you are extremely tired after a long week.",
-      "You meet another girl who wants to go home to. You find her very attractive",
+      "You meet another girl who wants to go home too. You find her very attractive",
       "You decide that you want to make a move on her"
     ],
     "options":[
@@ -122,10 +122,12 @@
       " You are still hungover from last night. Pass on the party."
     ],
     "text":[   
-      ""
+      " You pass on the party and decide to get a good nights rest for the next day.",
+      " You wake up the next morning and get ready to go to class."
     ],
     "options":[
-      "a_end"
+      "stopforbreakfast",
+      "gotocs180"
     ]
   },
   {
