@@ -41,7 +41,8 @@
       "If you follow through with this, I will be forced to take this matter to the dean of students."
     ],
     "text":[   
-      " I'm sorry for the accusation. In the future, however, I would reccomend you write your emails with more respect."
+      " I'm sorry for the accusation. In the future, however, I would reccomend you write your emails with more respect.",
+      " After a heated email that you sent to Varun and a quick response, you are still angry"
     ],
     "options":[
       "VarunAfterthought1",
@@ -49,16 +50,55 @@
     ]
   },
   {
-    "id":"VaroomMeeting1",
+    "id":"VaroomAfterthought1",
     "prompt":[
-      "Go to Lawson During Varoom's office hours"
+      " Go to the cactus and drink your troubles away"
     ],
     "text":[   
-      "*You arrive at Varoom's office in Lawson. You bring him his favorite drink from Starbucks to ease the situation*",
-      " \"I brought you a Starbucks, it's your favorite, Pumpkin Spice Latte!\" ",
-      "*You sit down*",
-      "Varoom: \" I'm going to have to give you a 0 for this assignment. Note that this is the best possible punishment and that",
-      "in the future I will have to report this to the office of the dean. You are dismissed.\""
+      " You meet some other college students at the Cactus that ask you to go to a house party tomorrow.",
+      " By this time you have far exceeded a .12% BAC and have trouble finding your way home.",
+      "Luckily, Varoom sees you planking on the sidewalk and helps you get home."
+    ],
+    "options":[
+      "a_end"
+    ]
+  },
+  {
+    "id":"VaroomAfterthought2",
+    "prompt":[
+      " Go to the CoRec and take your anger out by pumping some iron"
+    ],
+    "text":[   
+      " You go to the CoRec. You've been lazy and have neglected coming to the CoRec as often; however",
+      ", you are still the Alpha of the gym. You want to benchpress but all the benches are taken."
+      
+    ],
+    "options":[
+      "BenchOption1",
+      "BenchOption2"
+    ]
+  },
+  {
+    "id":"BenchOption1",
+    "prompt":[
+      "Go to a guy and kick him off the bench"
+    ],
+    "text":[   
+      "You grab a guy mid bench and pull him off the seat. He drops the bar on himself, ",
+      "but before it crushes his chest you pick it up with one arm and rerack it.",
+      ""
+    ],
+    "options":[
+      "a_end"
+    ]
+  },
+  {
+    "id":"BenchOption2",
+    "prompt":[
+      "Stand there looking akward while you wait for a bench to open up"
+    ],
+    "text":[   
+      ""
     ],
     "options":[
       "a_end"
