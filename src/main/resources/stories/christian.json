@@ -44,7 +44,8 @@
       " I'm sorry for the accusation. In the future, however, I would reccomend you write your emails with more respect."
     ],
     "options":[
-      "a_end"
+      "VarunAfterthought1",
+      "VarunAfterthought2"
     ]
   },
   {
@@ -82,7 +83,7 @@
   {
   "id":"GirlOption1",
     "prompt":[
-      "Netflix and Chill \\(ʘ‿ʘ\\)"
+      "Netflix and Chill 8=======D~~~~"
     ],
     "text":[   
       "*She comes into your room*: sure",
@@ -127,6 +128,7 @@
     "options":[
       "SexOption1",
       "SexOption2"
+      
     ]
   },
   {
@@ -138,6 +140,19 @@
       "*3 weeks later*",
       "*Phone buzzes... You pick it up*",
       "Girl(On Phone): \"I'm late on my period\""
+    ],
+    "options":[
+      "a_end"
+    ]
+  },
+  {
+  "id":"SexOption2",
+    "prompt":[
+      "Tell her you have to pee and then run to 3rd Street Market as fast as you can to buy condoms"
+    ],
+    "text":[   
+      "The Line at 3rd Street Market was extremely long and you return after 15 minutes of overanticipation.",
+      "When you return to the room, she's gone because you have taken too long."
     ],
     "options":[
       "a_end"
