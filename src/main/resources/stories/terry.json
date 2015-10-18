@@ -1,1 +1,71 @@
-[]
+[
+  {
+    "id":"wakeup1",
+    "prompt":[
+      "Go to class"
+    ],
+    "text":[
+      "You get out of bed, shower, brush your teeth, and walk to class."
+    ],
+    "options":[
+      "stopforbreakfast",
+      "gotocs180"
+    ]
+  },
+  {
+    "id":"stopforbreakfast",
+    "prompt":[
+      "Stop by to get breakfast"
+    ],
+    "text":[
+      "You walk downstairs to the dining court and run into your friend Stephen"
+    ],
+    "options":[
+      "talktostephen",
+      "ignorestephen"
+    ]
+  },
+  {
+    "id":"ignorestephen",
+    "prompt":[
+      "You ignore Stephen"
+    ],
+    "text":[
+      "You ignore Stephen, grab some food and sit down to eat.",
+      "A cute girl walks by and catches your eye"
+    ],
+    "options":[
+      "gotocs180",
+      "approachgirl"
+    ]
+  },
+  {
+    "id":"talktostephen",
+    "prompt":[
+      "Talk to Stephen"
+    ],
+    "text":[
+      "You see your friend Stephen and strike up conversation.",
+      "\"Hey whats up?\"",
+      "\"Not much, what's going on Stephen?\"",
+      "\"Hey check out that girl standing over there. What do you think?\""
+    ],
+    "options":[
+      "a_end",
+      "ignorestephen"
+    ]
+  },
+  {
+    "id":"gotocs180",
+    "prompt":[
+      "Finish and go to CS180"
+    ],
+    "text":[
+      "You make your way towards the Class of 1951 Lecture Hall."
+    ],
+    "options":[
+      "a_end",
+      "a_end"
+    ]
+  }
+]
