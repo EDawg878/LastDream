@@ -41,15 +41,19 @@ object LastDream {
         println(s"${i + 1}) ${q.prompt.mkString("\n")}")
     }
     print("> ")
-    val n = readInt()
-    val choice = Try(options.toSeq(n - 1)).toOption
-    choice map { q =>
-       if (q.id.endsWith("_end")) {
-         q.text.foreach(println)
-         None
-       } else Some(q)
+    Try(readLine().trim.toInt).toOption map { n =>
+      val choice = Try(options.toSeq(n - 1)).toOption
+      choice map { q =>
+        if (q.id.endsWith("_end")) {
+          q.text.foreach(println)
+          None
+        } else Some(q)
+      } getOrElse {
+        println("Invalid option!")
+        Some(question)
+      }
     } getOrElse {
-      println("Invalid option!")
+      println("Invalid option, please enter a number")
       Some(question)
     }
   }
