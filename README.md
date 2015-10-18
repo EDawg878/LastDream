@@ -2,7 +2,7 @@
 ### A funny text based adventure game written in Scala  
 ###### Created By: Eric Aguilera <[@edawg878]>, Terry Lam <[@tlam6297]>, Christian Locke <[@lockchristian]>
 
-### About the Game:  
+#### About the Game:  
 The game begins with the player waking up on a typical day at Purdoo University.  
 These ridiculous scenarios were inspired by real life college experiences!  
 
