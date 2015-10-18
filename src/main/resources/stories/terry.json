@@ -195,7 +195,6 @@
     ],
     "options":[
       "jasonsroom",
-      "brooksroom",
       "mattsroom"
     ]
   },
@@ -210,7 +209,6 @@
     ],
     "options":[
       "knockanywayslol",
-      "brooksroom",
       "mattsroom"
     ]
   },
@@ -228,7 +226,6 @@
     ],
     "options":[
       "letyourselfin",
-      "brooksroom",
       "mattsroom"
     ]
   },
@@ -259,11 +256,12 @@
     ],
     "text":[
       "You decide to go to Matthew's room. As you near his room, you can hear people arguing inside.",
-      "You peer into the room and see Matthew arguing with Ryan about something."
+      "You peer into the room and see Matthew arguing with Ryan about something.",
+      "Is this really worth dealing with right now?"
     ],
     "options":[
       "askwhatswrong",
-      "brooksroom"
+      "VaroomAfterthought1"
     ]
   },
       {
@@ -274,7 +272,7 @@
     "text":[
       "Being the nosy person you are, you inquire what the fuss is about.",
       "\"Ryan keeps trying to help me hook up with a girl and it's annoying!\"",
-      "\"Come on Matt, you know you like Liandri!\""
+      "\"Come on Matt, you know you like Liandri!\"",
       "\"Dude leave me alone, why don't you get a girlfriend first before you help me?\""
     ],
     "options":[
@@ -297,7 +295,41 @@
       "ignoreit"
     ]
   },
-      {
+  {
+    "id":"answerit",
+    "prompt":[
+      "Tell Matt to answer it"
+    ],
+    "text":[
+      "\"Hello? Yes this is Matt. Hi! How are you?\"",
+      "Matt mouths to you that he's totally in, 100%.",
+      "\"You want to meet up for dinner? Yeah for sure!\"",
+      "You look at Ryan and shrug. That was easy. Ryan asks if you want to go to Cru."
+    ],
+    "options":[
+      "cru1",
+      "cru2"
+    ]
+  },
+  {
+    "id":"ignoreit",
+    "prompt":[
+      "Tell Matt to ignore it"
+    ],
+    "text":[
+      "All three of you look at each other.",
+      "\"Dude don't answer it. don't make yourself look easy.\"",
+      "\"She probably just wants you to do her CS homework anyways\"",
+      "Matt looks at the phone and hesitates.",
+      "\"ALPHA MALE!\"",
+      "The phone stops ringing and all three of you start laughing. Ryan asks if you want to go to Cru."
+    ],
+    "options":[
+      "cru1",
+      "cru2"
+    ]
+  },
+  {
     "id":"sidewithmatt",
     "prompt":[
       "Take Matt's side"
@@ -346,5 +378,5 @@
       "skipclass",
       "gotocs180_end"
     ]
-  },
+  }
 ]
