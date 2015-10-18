@@ -66,12 +66,12 @@
       "You see a cute girl and decide to make a move. No harm in that right?",
       "\"Hey I recognize you, you're in my learning community right? Fabby right?\"",
       "\"Hi I know you! How are you?\"",
-      "\"I'm doing great!\"",
+      "\"I'm doing great! That project we have due is killing me.\"",
       "As you're talking, you make eye contact with another one of your friends, Ryan.",
       "You remember that Ryan has been crushing on this girl since school started."
     ],
     "options":[
-      "gotocs180",
+      "trytopickup",
       "helpryan"
     ]
   },
@@ -87,6 +87,38 @@
       "\"Oh h-h-hey, how's is g-going?\"",
       "A strange smell begins to permeate the air.",
       "Fabby gives Ryan a weird look."
+    ],
+    "options":[
+      "wingmanryan",
+      "trytopickup"
+    ]
+  },
+  {
+    "id":"wingmanryan",
+    "prompt":[
+      "Try and wingman for Ryanr"
+    ],
+    "text":[
+      "\"Hey Ryan, you finished the project already right? Fabby needs help\"",
+      "Fabby's eyes light up at the sound of this.",
+      "\"Do you think you could help me later?\""
+    ],
+    "options":[
+      "a_end",
+      "trytopickup"
+    ]
+  },
+  {
+    "id":"trytopickup",
+    "prompt":[
+      "Try to pick her up"
+    ],
+    "text":[
+      "You pretend Ryan isn't there and put on the charm.",
+      "\"So Fabby, what are you up to this weekend? Any big plans?\"",
+      "\"Oh not really, probably just going to work on our project. Why?\"",
+      "\"Well there's a party going on this weekend, and I was wondering if-\"",
+      "\"Uhm..I'm a little busy this weekend, so I don't know, sorry!\""
     ],
     "options":[
       "a_end",
