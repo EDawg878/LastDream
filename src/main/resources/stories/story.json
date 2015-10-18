@@ -5,7 +5,7 @@
 
     ],
     "text":[
-      "Matthew's alarm goes off and he promptly wakes up"
+      "Your alarm goes off you promptly wake up"
     ],
     "options":[
       "wakeup1",
@@ -30,7 +30,41 @@
       "Go back to sleep"
     ],
     "text":[
-      "Fuck Varun. Imma sleep"
+      "Varoom can wait. Imma sleep",
+      "*3 hours pass*",
+      "You wake up again and realize that you have also missed English 106 and CS 191"
+    ],
+    "options":[
+      "backsleep1",
+      "backsleep2"
+    ]
+  },
+  {
+    "id":"backsleep1",
+    "prompt":[
+      "Check your email"
+    ],
+    "text":[
+      "you have recieved an email from Teaching Assistant Varoom",
+      "The message reads:",
+      "It has come to our notice that you have cheated in the lab assignment. ",
+      "I will soon call you to my office to talk about this. In the meantime, if you would like",
+      "to confess drop me an email at <varoom@purdoo.edu> describing what exactly you did?    Please",
+      "note that you will be never be able to get around with cheating."
+    ],
+    "options":[
+      "a_end"
+    ]
+  },
+  {
+    "id":"backsleep2",
+    "prompt":[
+      "Go out into the hallway"
+    ],
+    "text":[
+      "Varoom can wait. Imma sleep",
+      "*3 hours pass*",
+      "You wake up again and realize that you have also missed English 106 and CS 191"
     ],
     "options":[
       "a_end"
@@ -41,7 +75,9 @@
     "prompt":[
       "this ends the game"
     ],
-    "text":[],
-    "options":[]
+    "text":[
+    ],
+    "options":[
+    ]
   }
 ]

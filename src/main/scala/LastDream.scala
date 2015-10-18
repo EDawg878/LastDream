@@ -15,15 +15,22 @@ object LastDream {
     val bytes = Files.readAllBytes(path)
     val questions = Json.parse(bytes).as[Seq[Question]].map { q => (q.id, q) }.toMap
     val start = questions("start")
-    ask(start, questions).map(ask(_, questions))
+
+    var next = ask(start, questions)
+    while (next.nonEmpty) {
+      next = ask(next.get, questions)
+    }
   }
 
   def ask(question: Question, questions: Map[String, Question]): Option[Question] = {
+    println()
     question.text.foreach(println)
+    println()
     val options = question.options.map(questions)
     options.zipWithIndex.foreach { case (q, i) =>
         println(s"${i + 1}) ${q.prompt.mkString("\n")}")
     }
+    print("> ")
     val n = readInt()
     val choice = Try(options.toSeq(n - 1)).toOption
     choice map { q =>
