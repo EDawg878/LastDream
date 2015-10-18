@@ -128,11 +128,10 @@
       "Don't make a run for it"
     ],
     "text":[
-      "The driver walks towards you."
+      "The driver walks towards you. As it turns out, the driver is actually your English instructor. ",
+      "You pissed him off by not showing up to class today. He informs you of this before slowly torturing you to death"
     ],
     "options":[
-      "Away1",
-      "Away3"
     ]
   },
   {
@@ -141,10 +140,11 @@
       "Do nothing"
     ],
     "text":[
-      ""
+      "The driver grabs you by the legs. You are now in excruciating pain from irritation of the gunshot wound.",
+      "As it turns out, the driver is actually your English instructor. You pissed him off by not showing up to ",
+      "class today. He informs you of this before slowly torturing you to death."
     ],
     "options":[
-      ""
     ]
   },
   {
@@ -153,22 +153,13 @@
       "Crawl away"
     ],
     "text":[
-      ""
+      "You attempt to crawl away from the driver. As the driver is about to grab you by the legs, your friend Matt",
+      "swoops in with his pickup truck and runs it straight into the driver. Matt calls emergency services and  ",
+      "gets you proper medical attention. After being treated, you are released and sent back to your room."
     ],
     "options":[
-      ""
-    ]
-  },
-  {
-    "id":"Away3",
-    "prompt":[
-      ""
-    ],
-    "text":[
-      ""
-    ],
-    "options":[
-      ""
+      "chill1",
+      "chill2"
     ]
   },
   {
