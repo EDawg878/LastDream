@@ -5,7 +5,7 @@
       "Go to class"
     ],
     "text":[
-      "You get out of bed, shower, brush your teeth, and walk to class."
+      "You get out of bed, shower, brush your teeth, and get ready for class."
     ],
     "options":[
       "stopforbreakfast",
@@ -169,8 +169,91 @@
       "Making your way back into your room, you wonder if any of your friends are in their rooms."
     ],
     "options":[
-      "backsleep2",
+      "gotohall",
       "nap"
+    ]
+  },
+    {
+    "id":"gotohall",
+    "prompt":[
+      "Go out into the hall"
+    ],
+    "text":[
+      "You step out in the hallway and try and decide whose room to visit.",
+      "You're bored as hell and you need someone to talk to."
+    ],
+    "options":[
+      "jasonsroom",
+      "brooksroom",
+      "mattsroom"
+    ]
+  },
+  {
+    "id":"jasonsroom",
+    "prompt":[
+      "Knock on Jason's door"
+    ],
+    "text":[
+      "You decide to go to Jason's room. From the hall you can hear sounds coming from inside.",
+      "As you get closer you hear some groaning and faint moaning."
+    ],
+    "options":[
+      "knockanywayslol",
+      "brooksroom",
+      "mattsroom"
+    ]
+  },
+  {
+    "id":"knockanywayslol",
+    "prompt":[
+      "Knock on his door anyways"
+    ],
+    "text":[
+      "You knock on the door and you hear two gasps from within.",
+      "\"Yo Jason! You want to play some League?\"",
+      "\"Dude go away! I'm a bit busy right now!\"",
+      "\"Oh come on man, the season ends soon, we need to play!\"",
+      "\"Seriously, not now!\""
+    ],
+    "options":[
+      "letyourselfin",
+      "brooksroom",
+      "mattsroom"
+    ]
+  },
+  {
+    "id":"letyourselfin",
+    "prompt":[
+      "Knock on his door anyways"
+    ],
+    "text":[
+      "They can't be doing anything that important, so you let yourself into the room.",
+      "Both Jason and a girl you've never seen before are sitting on their bed covered by sheets.",
+      "\"Dude what the hell?! WHy'd you come in?\"",
+      "\"Great question! Why didn't you lock your door? Now let's play!\"",
+      "\"...Touche. Alright fine.\" Jason turns to the girl \"You're gonna have to go, sorry\"",
+      "She scowls at him and gets dressed, then rushes out the door. Jason turns to you.",
+      "\"I thought you wanted to play, where's your laptop?\"",
+      "\"Nah, I don't want to play anymore.\""
+    ],
+    "options":[
+      "brooksroom",
+      "mattsroom"
+    ]
+  },
+    {
+    "id":"nap",
+    "prompt":[
+      "Decide to take a quick nap"
+    ],
+    "text":[
+      "You climb up on your bed and take a nap.",
+      "*2 hours later",
+      "You wake up"
+    ],
+    "options":[
+      "backsleep1",
+      "gotohall"
     ]
   },
 {
