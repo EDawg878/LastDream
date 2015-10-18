@@ -157,7 +157,17 @@
       "He leaves in defeat"
     ],
     "options":[
-      "\"You have now become a true alpha male\"_end"
+      "AlphaMale_end"
+    ]
+  },
+  {
+    "id":"AlphaMale_end",
+    "prompt":[
+      "You are now a true Alpha Male"
+    ],
+    "text":[   
+    ],
+    "options":[
     ]
   },
   {
@@ -201,7 +211,18 @@
       "You are now forever an embarassment at the CoRec"
     ],
     "options":[
-      ""
+      "Embarassment_end"
+    ]
+  },
+  {
+      "id":"Embarassment_end",
+    "prompt":[
+      "You are now forever an embarassment at the CoRec"
+    ],
+    "text":[   
+      "Because of this you never go to the CoRec again and you lose you begin to fail school."
+    ],
+    "options":[
     ]
   },
   {
@@ -234,7 +255,18 @@
       
     ],
     "options":[
-      ""
+      "Title9_end"
+    ]
+  },
+    {
+  "id":"Title9_end",
+    "prompt":[
+      "*The next day*: You have been arrested for title IX"
+    ],
+    "text":[   
+      "You spend the next 25 years in jail because of your title IX violation. In that time locked"," up you have gone crazy"
+    ],
+    "options":[
     ]
   },
   {
@@ -255,7 +287,22 @@
       
     ],
     "options":[
-      ""
+      "Success_end"
+    ]
+  },
+  {
+  "id":"Success_end",
+    "prompt":[
+      "Finish The Game"
+    ],
+    "text":[   
+            "Eventually after growing a strong relationship over Orange is the new Black",
+      "you two eventually become a couple over having so much in common... Even",
+      "though the only thing you two have in common is an appreciation for Orange is the new Black.",
+      "Nonetheless, you live happily ever after."
+      
+    ],
+    "options":[
     ]
   },
   {
@@ -287,7 +334,17 @@
       "Your mom is going to kill you"
     ],
     "options":[
-      ""
+      "MomKill_end"
+    ]
+  },
+  {
+  "id":"MomKill_end",
+    "prompt":[
+      "*Your mom is going to kill you"
+    ],
+    "text":[   
+    ],
+    "options":[
     ]
   },
   {
@@ -301,7 +358,18 @@
       "You die alone."
     ],
     "options":[
-      ""
+      "DieAlone_end"
+    ]
+  },
+  {
+  "id":"DieAlone_end",
+    "prompt":[
+      "You die alone."
+    ],
+    "text":[   
+
+    ],
+    "options":[
     ]
   }
 ]
