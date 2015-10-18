@@ -118,6 +118,56 @@
       "attempt to help you and successfully runs away You are now incapacitated and the driver walks towards you."
     ],
     "options":[
+      "Away1",
+      "Away2"
+    ]
+  },
+  {
+    "id":"run2",
+    "prompt":[
+      "Don't make a run for it"
+    ],
+    "text":[
+      "The driver walks towards you."
+    ],
+    "options":[
+      "Away1",
+      "Away3"
+    ]
+  },
+  {
+    "id":"Away1",
+    "prompt":[
+      "Do nothing"
+    ],
+    "text":[
+      ""
+    ],
+    "options":[
+      ""
+    ]
+  },
+  {
+    "id":"Away2",
+    "prompt":[
+      "Crawl away"
+    ],
+    "text":[
+      ""
+    ],
+    "options":[
+      ""
+    ]
+  },
+  {
+    "id":"Away3",
+    "prompt":[
+      ""
+    ],
+    "text":[
+      ""
+    ],
+    "options":[
       ""
     ]
   },
@@ -138,12 +188,61 @@
       "Don't go to Cru with Ryan"
     ],
     "text":[
-      "You tell Ryan that you don't feel like Cru tonight. Suddenly the two of you realize that you need to get your",
-      "resume checked by the CCO before 11:05 today. You quickly rush east on 1st street but have no idea where to go.",
-      "You both run into a narrow alley when two men dressed in black approach you."
+      "You tell Ryan that you are kinda busy right now. You text Ross to see if he is up to anything afterwards but he",
+      "does not respond. You head back to your room."
+    ],
+    "options":[
+      "chill1",
+      "chill2"
+    ]
+  },
+  {
+    "id":"chill1",
+    "prompt":[
+      "\"Relax\""
+    ],
+    "text":[
+      "You turn on your computer and put on headphones to \"Relax\" for a few minutes. In the process you unknowingly",
+      "make a lot of noise. Ryan knocks on the door. Unfortunately, you cannot hear him and he barges into the room."
+    ],
+    "options":[
+      "relax1",
+      "relax2"
+    ]
+  },
+  {
+    "id":"relax1",
+    "prompt":[
+      "Keep \"relaxing\""
+    ],
+    "text":[
+      ""
     ],
     "options":[
       ""
+    ]
+  },
+  {
+    "id":"relax2",
+    "prompt":[
+      "Freak out!"
+    ],
+    "text":[
+      ""
+    ],
+    "options":[
+      ""
+    ]
+  },
+  {
+    "id":"chill2",
+    "prompt":[
+      "Sleep"
+    ],
+    "text":[
+      "You hop into your bed and fall asleep."
+    ],
+    "options":[
     ]
   },
   {
