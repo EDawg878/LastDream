@@ -9,16 +9,19 @@ case class Question(id: String, prompt: Seq[String], text: Seq[String], options:
 object LastDream {
 
   implicit val questionFormat = Json.format[Question]
+  val files = Seq("matt.json", "christian.json", "terry.json")
 
   def main(args: Array[String]): Unit = {
-    val path = Paths.get(getClass.getResource("stories/story.json").toURI)
-    val bytes = Files.readAllBytes(path)
-    val questions = Json.parse(bytes).as[Seq[Question]].map { q => (q.id, q) }.toMap
-    val start = questions("start")
-
-    var next = ask(start, questions)
+    val root = Paths.get(getClass.getResource("stories").toURI)
+    val questions = (files.map(root.resolve) map { path =>
+      val bytes = Files.readAllBytes(path)
+      Json.parse(bytes).as[Seq[Question]]
+    }).flatten
+    val questionsById = (questions map { q => (q.id, q) }).toMap
+    val start = questionsById("start")
+    var next = ask(start, questionsById)
     while (next.nonEmpty) {
-      next = ask(next.get, questions)
+      next = ask(next.get, questionsById)
     }
   }
 
