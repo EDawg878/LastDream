@@ -9,7 +9,7 @@ These ridiculous scenarios were inspired by real life college experiences!
 #### How it Works:
 The Scala program parses a custom JSON story format and supports input from multiple story authors.
 
-#### An Peek at our JSON Story Format:
+#### A Peek at our JSON Story Format:
 ```javascript
 [
   {
